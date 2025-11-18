@@ -22,12 +22,24 @@ To write a Python program to build and evaluate the given Expression tree.
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+from binarytree import heap,build,Node
+def heaptree(L):
+  x=L
+  t=build(x)
+  for i in t.values:
+    print(i,"-->",end='')
+  print("\nHeight : ",t.height)
+  print("Is max heap? : ",t.is_max_heap)
+  print("Is complete tree? : ",t.is_complete)
+
 ```
 
 ## OUTPUT:
-```
+``
+<img width="770" height="149" alt="{140F3B08-293D-457F-A556-3220735DEF77}" src="https://github.com/user-attachments/assets/90c7b4e3-1619-4ad6-b2e8-2af33b6a81d2" />
+
 ```
 
 ## RESULT:
-
+```
+Thus, Python program to build and evaluate the given Expression tree was successfully implemented and verified.
